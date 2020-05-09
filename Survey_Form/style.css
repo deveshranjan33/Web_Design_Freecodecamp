@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+:root 
+{
+    --color-white:#f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+}
+::before,
+::after
+{
+    box-sizing:border-box;
+}
+.header
+{
+    line-height: 1.2;
+    text-align: center;
+}
+#description
+{
+    padding:25px;
+    font-style:italic;
+}
+#title
+{
+    font-size: 50px;
+}
+#survey-form
+{
+    position:relative;
+    left:100px;
+    line-height: 1.5;
+    font-size: 27px;
+}
+
+input,select,textarea 
+{
+    border-radius: 0.25rem;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button
+{
+    position:relative;
+    left:500px;
+    border:none;
+    display:block;
+    width:30%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height:inherit;
+    padding:0.75rem;
+    background:green;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+body
+{
+    font-family:'Popping',sans-serif;
+    font-size: 24px;
+    font-weight:400;
+    line-height:1.4;
+    padding :25px;
+    background-image: url("https://www.humboldt-foundation.de/pls/web/wt_show.text_page?p_text_id=68334596");
+}
+
+input[type=text]:focus
+{
+    background-color: lightblue;
+}
+input[type=email]:focus
+{
+    background-color: lightblue;
+}
+input[type=number]:focus
+{
+    background-color: lightblue;
+}
+textarea:focus
+{
+    background-color: lightblue;
+}
+input[type=text]
+{
+    
+    padding: 0.5rem;
+    width:75%;
+}
+input[type=email]
+{
+    padding: 0.5rem;
+    width:75%;
+}
+input[type=number]
+{
+    padding: 0.5rem;
+    width:75%;
+}
+textarea
+{
+    padding: 0.625rem;
+    width:75%;
+    height:100px;;
+}
+#main
+{
+    opacity:0.85;
+    background-color:var(--color-darkblue);
+    color:lightgoldenrodyellow;
+}

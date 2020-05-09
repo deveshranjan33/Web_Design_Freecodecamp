@@ -1,0 +1,82 @@
+body
+{
+    background-color: lightyellow;
+    line-height: 1.4;
+}
+main
+{
+    margin:6px;
+}
+.main-header
+{
+    font-size: 36px;
+    text-align: center;
+}
+#nav-bar li
+{
+    list-style: none;
+    border-top: solid;
+}
+
+#navbar
+{   
+    border-right: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-top: solid;
+}
+.nav-link
+{
+    font-style: italic;
+    padding:2px;
+    text-decoration:none;
+    display:block;
+    color:rgb(32, 31, 31);
+    font-size:18px;
+}
+.cde
+{
+    font-size: 11px;
+    background-color: lightgrey;
+}
+@media only screen and (min-width:600px)
+{
+    body
+    {
+        line-height: 1.5;
+    }
+    .main-header
+    {
+        font-size:50px;
+    }
+    .nav-link
+    {
+        font-size:23px;
+    }
+    main
+    {
+        font-size:23px;
+    }
+    h2
+    {
+        font-size:40px;
+    }
+    .cde
+    {
+        font-size:17px;
+    }
+}
+@media only screen and (min-width:1000px)
+{
+    #navbar
+    {
+        width:500px;
+        position:fixed;
+    }
+    #main-doc
+    {
+        position:absolute;
+        left:535px;
+        top:25px;
+    }
+}

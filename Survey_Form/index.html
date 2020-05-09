@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form For Corona</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+    <body>
+        <main id="main">
+            <header class="header">
+                <h1 id="title">Covid-19 Survey Form</h1>
+                <p id="description">This form contains the information which is submitted to the government wheather you have came in contact with any corona posiive person or not.Thank you for helping government in this pandemic</p>
+                <hr>
+            </header>
+            <form id="survey-form">
+                <label id="name-label" for="name">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+                <label id="email-label" for="email">Email Id</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email Id" required><br><br>
+                <label id="number-label" for="age">Age</label><br>
+                <input type="number" name="age" id="number" min="5" max="110" placeholder="Age" required><br><br>
+                <label id="dropdown-label" for="role">Current Role in Society</label><br>
+                <select id="dropdown" name="role" required>
+                    <option disabled selected value>Select Current Role</option>
+                    <option value="univ_student">University Student</option>
+                    <option value="school_student">School Student</option>
+                    <option value="Job">Full Time Job</option>
+                    <option value="not_say">Prefer Not to Say</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                <label id="eating" for="eating">Which Type of Food you Generally Eat?</label><br>
+                <label><input value="veg" name="eating" type="checkbox">Veg</label><br>
+                <label><input value="nveg" name="eating" type="checkbox">Non Veg</label><br><br>
+                <label id="travel-label" for="travel">Do You Have Travelled International Recently</label><br>
+                <label><input name="travel" value="Yes" type="radio">Yes</label>
+                <label><input name="travel" value="No" type="radio" checked>No</label><br><br>
+                <label id="recent-label" for="recent">Have you come in contact with any Infected Person Recently</label><br>
+                <label><input name="recent" value="Yes" type="radio">Yes</label>
+                <label><input name="recent" value="No" type="radio" checked>No</label><br><br>
+                <label for="suggestions" id="suggestions">Any Suggestions for the Government to Take Care</label><br>
+                <textarea id="sugg" name="suggestions"  placeholder="Enter your Suggestions here"></textarea><br><br>
+                <div id="wrap"></div><button type="submit" id="submit">Submit</button></div>
+            </form>
+        </main>
+    </body>
+</html>
